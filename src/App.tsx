@@ -41,7 +41,7 @@ function Router() {
   return (
     <Switch>
       {/* Public routes */}
-      {/* <Route path="/" component={Home} /> */}
+      <Route path='/' component={BlogArticlePage} />
       <Route path='/job-search' component={JobSearch} />
       <Route path='/internship-program' component={InternshipProgram} />
       <Route path='/students-graduates' component={StudentsGraduates} />
